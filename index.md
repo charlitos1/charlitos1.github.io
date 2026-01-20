@@ -8,13 +8,13 @@ carlosmoreno — Tech Consulting | Deploying Digital Archive Infraestructure - R
 
 # [ SESSION STARTED: {{ "now" | date: "%Y-%m-%d %H:%M" }} ]
 
-$ /novedades
+[$ /novedades
 {% assign latest_post = site.posts.first %}
 ---
 ### > {{ latest_post.title | upcase }}
 **DATE:** {{ latest_post.date | date: "%d/%m/%Y" }}
 **TAGS:** {% for category in latest_post.categories %}<{{ category | upcase }}> {% endfor %}
----
+---]
 
 {{ latest_post.content }}
 
