@@ -1,27 +1,28 @@
 # Configuración del Blog - Estilo Terminal
 title: "root@carlosmoreno:~$"
 email: "periodistacarlosmoreno@gmail.com"
-description: >- # Esta descripción aparece en Google
+description: >-
   Bienvenido a mi terminal personal. Aquí documento ideas, proyectos y datos.
-baseurl: "" # Déjalo vacío
-url: "https://carlosmoreno.github.io" 
+baseurl: "" 
+url: "https://charlitos1.github.io" 
 
 # Configuración del Tema
-remote_theme: mre/jekyll-theme-terminal # Asegura que use el motor del tema
+remote_theme: mre/jekyll-theme-terminal 
 
-# Plugins necesarios
+# Plugins necesarios (HE AÑADIDO EL REMOTE-THEME AQUÍ)
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-remote-theme
 
 # --- AJUSTES DE ESTILO TERMINAL ---
-style: dark # Opciones: dark (verde terminal), light, o hacker
-listen_for_clients_preferred_style: false # Forzamos el modo oscuro siempre
+style: dark 
+listen_for_clients_preferred_style: false 
 
 # Personalización del Header
 header_pages:
   - index.md
   - about.md
 
-# Pie de página estilo comando
-footer: 'system.log: <a href="https://github.com/tu-usuario">github</a> | <a href="https://linkedin.com/in/tu-usuario">linkedin</a>'
+# Pie de página (He actualizado tus links de GitHub)
+footer: 'system.log: <a href="https://github.com/charlitos1">github</a> | <a href="https://linkedin.com/in/carlosmoreno">linkedin</a>'
