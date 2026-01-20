@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Título de tu gran artículo"
+date: 2026-01-21
+categories: [investigacion]
+---
+
+
 He probado Bitchat, aplicación que lanzó recientemente Jack Dorsey, el cerebro creador de Twitter, hoy X. 
 
 La sencillez de la aplicación evoca los canales de IRC de los 90 y las salas de chat de aquellos años donde confluíamos en un foro con mucho texto y poca imagen. 
