@@ -4,6 +4,7 @@ title: "IA y el Fin del Trabajo: El reto de la Renta Universal"
 date: 2026-01-20
 categories: [prospeccion, tecnologia]
 ---
+**Autor:** Carlos Moreno
 
 # [ FUTURO_LABORAL_2026 ]
 
@@ -50,4 +51,3 @@ Pero, ¿prevén siquiera los marcos legales de hoy semejante reto de reformas? L
 
 ---
 
-**Autor:** Carlos Moreno
