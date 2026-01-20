@@ -1,17 +1,7 @@
----
-layout: default
-title: Home
----
-
-# [ SYSTEM STATUS: ONLINE ]
-
-$ whoami
-> charlitos1
-
-$ list --projects
-* Mi nuevo blog estilo terminal
-* Configuración de Jekyll en GitHub
-* Explorando el mundo estático
-
----
-Escribe `cd posts` para leer mis artículos (o simplemente haz clic en los enlaces de arriba).
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>¡La terminal de Carlos está viva!</h1>
+    <p>Si lees esto, GitHub Pages funciona. El problema es Jekyll.</p>
+</body>
+</html>
