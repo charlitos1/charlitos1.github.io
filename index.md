@@ -4,7 +4,7 @@ title: "root@carlosmoreno:~$"
 ---
 
 $ whoami
-> carlosmoreno — Tech Consulting | Deploying Digital Archive Infraestructure | Project Manager at Bitseat | Presidency NGO paulvenezuela.org | Journalist | Developing enterprise project
+carlosmoreno — Tech Consulting | Deploying Digital Archive Infraestructure | Project Manager at Bitseat | Presidency NGO paulvenezuela.org | Journalist | Developing enterprise project
 
 # [ SESSION STARTED: {{ "now" | date: "%Y-%m-%d %H:%M" }} ]
 
