@@ -8,7 +8,7 @@ carlosmoreno — Tech Consulting | Deploying Digital Archive Infraestructure | P
 
 # [ SESSION STARTED: {{ "now" | date: "%Y-%m-%d %H:%M" }} ]
 
-$ tail -n 1 /logs/latest_post
+$ /novedades
 {% assign latest_post = site.posts.first %}
 ---
 ### > {{ latest_post.title | upcase }}
