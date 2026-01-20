@@ -9,7 +9,7 @@ url: "https://charlitos1.github.io"
 # Configuración del Tema
 remote_theme: mre/jekyll-theme-terminal@master
 
-# Plugins necesarios (HE AÑADIDO EL REMOTE-THEME AQUÍ)
+# Plugins necesarios
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
@@ -24,5 +24,5 @@ header_pages:
   - index.md
   - about.md
 
-# Pie de página (He actualizado tus links de GitHub)
-footer: 'system.log: <a href="https://github.com/charlitos1">github</a> | <a href="https://linkedin.com/in/carlosmoreno">linkedin</a>'
+# Pie de página
+footer: 'system.log: <a href="https://github.com/charlitos1">github</a>'
