@@ -14,7 +14,7 @@ carlosmoreno — Tech Consulting | Deploying Digital Archive Infraestructure - R
 ### > {{ latest_post.title | upcase }}
 **DATE:** {{ latest_post.date | date: "%d/%m/%Y" }}
 **TAGS:** {% for category in latest_post.categories %}<{{ category | upcase }}> {% endfor %}
----]
+---
 
 {{ latest_post.content }}
 
