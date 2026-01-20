@@ -1,7 +1,17 @@
 ---
 layout: page
-title: /usr/bin/whoami
+title: "man whoami"
+permalink: /about/
 ---
-> Ejecutando identificación...
 
-Soy un desarrollador apasionado por la terminal y el código limpio.
+# USER PROFILE: [TU NOMBRE]
+
+**STATUS:** Active
+**LOCATION:** 127.0.0.1
+**SKILLS:** Python, JavaScript, Linux Admin, Coffee Drinking.
+
+---
+
+> "El código es como el humor. Si tienes que explicarlo, es malo."
+
+$ exit
