@@ -1,9 +1,27 @@
 ---
-title: /
-layout: home
-permalink: /
+layout: default
+title: "root@carlosmoreno:~$"
 ---
 
-# Lorem ipsum
+# [ SYSTEM INITIALIZED ]
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+$ whoami
+> carlosmoreno — Periodista y Entusiasta de la Tecnología.
+
+$ cat bio.txt
+Bienvenido a mi terminal personal. Este es un espacio donde documento ideas, proyectos y datos de forma minimalista. Aquí la información fluye sin distracciones.
+
+$ ls -l /proyectos
+* **Blog Estilo Terminal**: [Configurado y funcionando ✅]
+* **Investigación**: [Cargando datos...]
+* **Github**: [charlitos1](https://github.com/charlitos1)
+
+---
+
+### Últimas entradas del sistema:
+Aquí aparecerán tus posts automáticamente una vez los crees en la carpeta `_posts`.
+
+---
+
+$ help
+> Usa el menú de la parte superior para navegar por las secciones o escribe `cd ..` para volver.
