@@ -1,34 +1,27 @@
-# Example Site settings
+# Configuración del Blog - Estilo Terminal
+title: "root@carlosmoreno:~$"
+email: "periodistacarlosmoreno@gmail.com"
+description: >- # Esta descripción aparece en Google
+  Bienvenido a mi terminal personal. Aquí documento ideas, proyectos y datos.
+baseurl: "" # Déjalo vacío
+url: "https://carlosmoreno.github.io" 
 
-#header_pages:
-#  - index.md
-#  - about.md
+# Configuración del Tema
+remote_theme: mre/jekyll-theme-terminal # Asegura que use el motor del tema
 
-#footer: 'follow us on <a href="https://twitter.com/">twitter</a>'
-
+# Plugins necesarios
 plugins:
   - jekyll-seo-tag
+  - jekyll-feed
 
-# Theme options
-# style: dark # dark (default) or light or hacker
-# listen_for_clients_preferred_style: true # true or false (default)
+# --- AJUSTES DE ESTILO TERMINAL ---
+style: dark # Opciones: dark (verde terminal), light, o hacker
+listen_for_clients_preferred_style: false # Forzamos el modo oscuro siempre
 
-# Fonts
-# disable_google_fonts: false # set true to prevent loading fonts.googleapis.com
+# Personalización del Header
+header_pages:
+  - index.md
+  - about.md
 
-# Tracking (generic, optional; loads only in production)
-# tracking:
-#   script_src:
-#     - https://analytics.example.com/matomo.js
-#   async: true   # default true
-#   defer: false  # default false
-#   # Optional inline init snippet (requires CSP allowance if used)
-#   # init: |
-#   #   var _paq = window._paq = window._paq || [];
-#   #   _paq.push(['trackPageView']);
-#   #   _paq.push(['enableLinkTracking']);
-#   #   _paq.push(['setTrackerUrl', 'https://analytics.example.com/matomo.php']);
-#   #   _paq.push(['setSiteId', '1']);
-#
-# # Extend CSP to allow your tracker sources (script-src/connect-src/img-src as needed)
-# # csp_extra: "script-src 'self' https://analytics.example.com; connect-src 'self' https://analytics.example.com; img-src 'self' https://analytics.example.com;"
+# Pie de página estilo comando
+footer: 'system.log: <a href="https://github.com/tu-usuario">github</a> | <a href="https://linkedin.com/in/tu-usuario">linkedin</a>'
