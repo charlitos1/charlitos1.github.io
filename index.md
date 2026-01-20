@@ -1,9 +1,26 @@
 ---
-layout: post
-title: "Conexión Establecida"
-date: 2026-01-20
+layout: default
+title: "root@carlosmoreno:~$"
 ---
 
-# ¡Hola Mundo!
+# [ SYSTEM STATUS: ACTIVE ]
 
-Este es mi primer post en la terminal. El sistema está 100% operativo.
+$ whoami
+> carlosmoreno — Periodista y Entusiasta de la Tecnología.
+
+$ tail -n 1 /logs/latest_post
+{% assign latest_post = site.posts.first %}
+---
+### > {{ latest_post.title }} ({{ latest_post.date | date: "%Y-%m-%d" }})
+
+{{ latest_post.content }}
+
+---
+
+$ ls -l /archive
+{% for post in site.posts offset:1 %}
+* {{ post.date | date: "%Y-%m-%d" }} - [{{ post.title }}]({{ post.url }})
+{% endfor %}
+
+$ help
+> El sistema muestra automáticamente la última entrada. Usa el archivo para ver posts anteriores.
