@@ -7,7 +7,7 @@ baseurl: ""
 url: "https://charlitos1.github.io" 
 
 # Configuración del Tema
-remote_theme: mre/jekyll-theme-terminal 
+remote_theme: mre/jekyll-theme-terminal@master
 
 # Plugins necesarios (HE AÑADIDO EL REMOTE-THEME AQUÍ)
 plugins:
