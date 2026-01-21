@@ -6,7 +6,7 @@ categories: [prospeccion, tecnologia]
 ---
 **Autor:** Carlos Moreno
 
-# [ FUTURO_LABORAL_2026 ]
+# [ IA Y EL ¿FIN DEL TRABAJO? ]
 
 Quiero invitar a quienes leen estas breves líneas a un ejercicio de prospección. 
 
