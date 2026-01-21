@@ -45,5 +45,5 @@ Todos los procesos pueden acelerarse, pero hazlo solo una vez hayas seguido prim
 * **Leyes de la física:** Nuestro principio operativo es un sentido obsesivo de la urgencia. Las únicas normativas son las que dictan las leyes de la física. Todo lo demás son recomendaciones.
 
 ---
-**Status:** Protocol Uploaded
+
 **Autor:** Carlos Moreno
