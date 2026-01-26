@@ -17,12 +17,14 @@ permalink: /about/
 Graduado en Venezuela desde 2004 como periodista. He ejercido la carrera en medios de comunicación impresos,radiales y digitales, y también como consultor.
 
 Desde 2008 he ocupado posiciones de coordinación de equipos como Jefe de Investigación, luego como Redactor Jefe y finalmente como Director de medio hasta 2016.
+
 Fundador de la Revista República, Impresa y digital en Maracaibo-Venezuela. Responsable de la arquitectura digital del Diario Versión Final entre 2013 - 2016 y todo su compendio
 editorial.
 
 En 2016, ya en España, fui acreditado por el Ministerio de la Presidencia - Secretaría de Estado de Comunicación como Colaborador de Prensa Extranjera.
 
 He trabajado en España como redactor y community manager para empresas como Global MKD, RentStyle Apartment, The Improving,Subtrate Pentarte, AlNavio.es.
+
 Fundador en España de la empresa The Castle Of Minds donde fui responsable del diseño, enfoque y desarrollo de entornos educativos creativos para colegios de Madrid.
 
 Trabajé como desarrollador web y gestión cloud en Amazon Web Services para Scenikus (SaaS de tecnología streaming) y mantenimiento de CMS.Más recientemente como Project Manager y arquitecto de soluciones digitales en la nube para la empresa eEvents-Live desarrolladora de Software y eventos digitales.
@@ -61,100 +63,90 @@ impactar positivamente en más de 15 mil pacientes.
 
 > **[EXPERIENCIA]**
 
-Residencia de Estudiantes de Madrid (Consejo Superior de Investigaciones Científicas - Csic) y la Institución Libre de Enseñanza (ILE) - Proyectos de Digitalización 2023-2024 
+**Residencia de Estudiantes de Madrid** (Consejo Superior de Investigaciones Científicas - Csic) y la Institución Libre de Enseñanza (ILE) - Proyectos de Digitalización 2023-2024 
 
-    Implementación de tecnologías de archivo digital y Arquitectura de servicios cloud en AWS - Servidores Linux - Desacoplamiento de BDD MySQL - RDS AWS.
+Implementación de tecnologías de archivo digital y Arquitectura de servicios cloud en AWS - Servidores Linux - Desacoplamiento de BDD MySQL - RDS AWS.
 
-    Despliegue de sistemas AtoM - Gestión y preparación de data - Frontend y Backend - Securización y permisos.
+Despliegue de sistemas AtoM - Gestión y preparación de data - Frontend y Backend - Securización y permisos.
 
-    Prototipos de agentes con IA para consultas del Centro Documental - Textos - Videos - Audios.
+Prototipos de agentes con IA para consultas del Centro Documental - Textos - Videos - Audios.
     
 
-Scenikus Technology (España) Desarrollo y gestión Cloud - Plataforma Streaming SEP 2020 - SEP 2022
+**Scenikus Technology** (España) Desarrollo y gestión Cloud - Plataforma Streaming SEP 2020 - SEP 2022
 
-    Desarrollo de proyectos web.
+Desarrollo de proyectos web.
 
-    Gestión de servicios cloud en AWS (S3, LightSail, EC2, Cloudfront/CDN, IAM, R-53).
+Gestión de servicios cloud en AWS (S3, LightSail, EC2, Cloudfront/CDN, IAM, R-53).
 
-    Levantamiento y aprovisionamiento de instancias y BDD.
+Levantamiento y aprovisionamiento de instancias y BDD.
 
-    Funciones como Product Owner: Generación de lógicas, integraciones y optimización plasmadas en Scrum (Jira).
+Funciones como Product Owner: Generación de lógicas, integraciones y optimización plasmadas en Scrum (Jira).
 
-    Testeo de software.
+Testeo de software.
 
-    Redacción de informes.
+Redacción de informes.
 
-    Desarrollo, mantenimiento y migraciones de proyectos en CMS.
+Desarrollo, mantenimiento y migraciones de proyectos en CMS.
 
-    Edición básica de video e imagen.
+Edición básica de video e imagen.
 
-    Realización de streaming (OBS, Scenikus Technology, Youtube, Stream Yard, Restream).
+Realización de streaming (OBS, Scenikus Technology, Youtube, Stream Yard, Restream).
 
-    Redacción de manuales de procedimiento.
+Redacción de manuales de procedimiento.
 
    
-Alaimo Group USA (EEUU) Digital Project Manager (AUTÓNOMO)
+**Alaimo Group USA** (EEUU) Digital Project Manager (AUTÓNOMO)
 
-    Creación y gestión de proyectos para WebApps.
+Creación y gestión de proyectos para WebApps.
 
-    Consultoría editorial - marketing online - Analíticas - Integración de IAs para gestión documental y asistentes editoriales - API Open AI - Anthropic - BBD MySQL.
+Consultoría editorial - marketing online - Analíticas - Integración de IAs para gestión documental y asistentes editoriales - API Open AI - Anthropic - BBD MySQL.
     
 
-The Castle Of Minds (España) Diseño creativo y comercial JUNIO 2019 - FEBRERO 2020 - Fundador consultor
+**The Castle Of Minds** (España) Diseño creativo y comercial JUNIO 2019 - FEBRERO 2020 - Fundador consultor
 
-    Diseño de entornos creativos para la educación.
+Diseño de entornos creativos para la educación.
 
-    Creación de productos educativos.
+Creación de productos educativos.
 
-    Test de producto.
+Test de producto.
 
-    Diseño e implementación web y comunicaciones.
+Diseño e implementación web y comunicaciones.
 
-    Diseño, análisis e implementación de estrategias y guiones comerciales.
+Diseño, análisis e implementación de estrategias y guiones comerciales.
 
-Al Navío, (Inversiones Río Apure SL España) Redacción de noticias SEPT 2019
+**Al Navío**, (Inversiones Río Apure SL España) Redacción de noticias SEPT 2019
 
-    Redacción de noticias / Entrevistas / Reportajes.
+Redacción de noticias / Entrevistas / Reportajes.
 
-    Planificación de agenda.
-
-Subtrate Pentarte, (España) Creador de contenido - Logística y coordinación de eventos OCTUBRE 2017-JUNIO 2019
-
-    Coordinación de eventos entre empresa y cliente.
-
-    Edición de textos educativos / Estrategia de redes sociales.
-
-The Improving Co, (España) Editor y coordinador OCTUBRE 2016-JUNIO 2017
-
-    Edición de textos educativos / Elaboración de contenidos para redes sociales y material educativo.
+Planificación de agenda.
 
 Colaborador de prensa extranjera, (España) Acreditado por el Ministerio de la Presidencia - Secretaría de Estado de Comunicación NOVIEMBRE 2016-NOVIEMBRE 2017
 
-    Reportería internacional para medios en Caracas y Maracaibo (Venezuela).
+Reportería internacional para medios en Caracas y Maracaibo (Venezuela).
 
-Diario Versión Final, (Venezuela) Director 2013-JUNIO 2016
+**Diario Versión Final**, (Venezuela) Director 2013-JUNIO 2016
 
-    Planificación y coordinación financiera, comercial y editorial del Diario.
+Planificación y coordinación financiera, comercial y editorial del Diario.
 
-    Contratación de periodistas y editores.
+Contratación de periodistas y editores.
 
-    Coordinación y gestión de reuniones diarias editoriales con editores y redactores jefes.
+Coordinación y gestión de reuniones diarias editoriales con editores y redactores jefes.
 
-    Diseño de Productos especiales.
+Diseño de Productos especiales.
 
-    Relaciones institucionales del Diario.
+Relaciones institucionales del Diario.
 
-    Coordinación de planificación de agendas informativas y de investigación.
+Coordinación de planificación de agendas informativas y de investigación.
 
-    Redacción de Editoriales - Entrevistas especiales - Reportajes de Investigación - Análisis.
+Redacción de Editoriales - Entrevistas especiales - Reportajes de Investigación - Análisis.
 
-    Estrategias comerciales del impreso y la versión digital.
+Estrategias comerciales del impreso y la versión digital.
 
-    Responsable de la arquitectura digital. Coordinación de actualizaciones y test.
+Responsable de la arquitectura digital. Coordinación de actualizaciones y test.
 
-    Estrategias, evaluación y análisis de resultados de venta diarios.
+Estrategias, evaluación y análisis de resultados de venta diarios.
 
-    Redacción de informes y análisis comparativos.
+Redacción de informes y análisis comparativos.
 
     Redacción del libro de estilo.
 
