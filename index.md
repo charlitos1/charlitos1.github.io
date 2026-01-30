@@ -35,11 +35,6 @@ title: "root@carlosmoreno:~$"
 
 </div>
 
-<footer class="system-footer">
-  <span class="command">$ system_info</span>
-  
-</footer>
-
 <style>
   /* Inspiración Amodei: Tipografía y Espaciado */
   .amodei-style {
