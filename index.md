@@ -14,7 +14,7 @@ title: "root@carlosmoreno:~$"
 
 # [ SESSION STARTED: {{ "now" | date: "%Y-%m-%d %H:%M" }} ]
 
-[$ /novedades/fetch --latest
+[$ /novedades
 {% assign latest_post = site.posts.first %}
 ---
 ### > {{ latest_post.title | upcase }}
