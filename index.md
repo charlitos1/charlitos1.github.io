@@ -29,3 +29,5 @@ $ archive
 
 $ help
 > El sistema muestra el post más reciente y los 5 anteriores. Usa /archive para el historial completo.
+
+![Visitas](https://visitor-badge.laobi.icu/badge?page_id=charlitos1.charlitos1.github.io)
