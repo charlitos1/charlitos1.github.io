@@ -37,10 +37,7 @@ title: "root@carlosmoreno:~$"
 
 <footer class="system-footer">
   <span class="command">$ system_info</span>
-  <p>
-    VISITORS: ![Visitas](https://visitor-badge.laobi.icu/badge?page_id=charlitos1.charlitos1.github.io&left_color=1a1a1a&right_color=00ff00) | 
-    STATUS: IDLE <span class="blink">█</span>
-  </p>
+  
 </footer>
 
 <style>
