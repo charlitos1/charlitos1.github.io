@@ -49,10 +49,12 @@ En 2017 fundé en España la Asociación Civil Paúl Venezuela para la labor hum
 ### > [ EXPERIENCIA ]
 
 **Residencia de Estudiantes de Madrid (CSIC) e ILE**
-*Proyectos de Digitalización 2023-2024*
+*Proyectos de Digitalización 2023-Actualidad*
 * Implementación de tecnologías de archivo digital y Arquitectura de servicios cloud en AWS - Servidores Linux - Desacoplamiento de BDD MySQL - RDS AWS.
 * Despliegue de sistemas AtoM - Gestión y preparación de data - Frontend y Backend - Securización y permisos.
 * Prototipos de agentes con IA para consultas del Centro Documental - Textos - Videos - Audios.
+
+---
 
 **Scenikus Technology (España)**
 *Desarrollo y gestión Cloud - Plataforma Streaming | SEP 2020 - SEP 2022*
@@ -62,23 +64,33 @@ En 2017 fundé en España la Asociación Civil Paúl Venezuela para la labor hum
 * Testeo de software, redacción de informes y mantenimiento de CMS.
 * Realización de streaming (OBS, Youtube, Stream Yard) y manuales de procedimiento.
 
+---
+
 **Alaimo Group USA (EEUU)**
 *Digital Project Manager (AUTÓNOMO)*
 * Creación y gestión de proyectos para WebApps.
 * Consultoría editorial - marketing online - Analíticas - Integración de IAs para gestión documental y asistentes editoriales - API Open AI - Anthropic - BBD MySQL.
+
+---
 
 **The Castle Of Minds (España)**
 *Diseño creativo y comercial | JUNIO 2019 - FEBRERO 2020*
 * Fundador consultor: Diseño de entornos creativos para la educación y creación de productos educativos.
 * Diseño e implementación web y estrategias de guiones comerciales.
 
+---
+
 **Al Navío (España)**
 *Redacción de noticias | SEPT 2019*
 * Redacción de noticias, entrevistas y reportajes. Planificación de agenda.
 
+---
+
 **Colaborador de Prensa Extranjera (España)**
 *Acreditado por el Ministerio de la Presidencia | NOV 2016 - NOV 2017*
 * Reportería internacional para medios en Caracas y Maracaibo (Venezuela).
+
+---
 
 **Diario Versión Final (Venezuela)**
 *Director | 2013 - JUNIO 2016*
@@ -86,21 +98,31 @@ En 2017 fundé en España la Asociación Civil Paúl Venezuela para la labor hum
 * Coordinación de reuniones editoriales, diseño de productos especiales y relaciones institucionales.
 * Responsable de la arquitectura digital, redacción de estilo y análisis de equipos industriales (rotativas).
 
+---
+
 **Diario Versión Final (Venezuela)**
 *Redactor Jefe | SEPTIEMBRE 2010 - 2013*
 * Seguimiento diario de agenda informativa y postulación de historias para portada.
+
+---
 
 **Diario Versión Final (Venezuela)**
 *Jefe de Investigación | OCTUBRE 2009 - SEPTIEMBRE 2010*
 * Diseño de agenda de investigación y edición de trabajos de alto impacto.
 
+---
+
 **Diario Versión Final (Venezuela)**
 *Periodista de investigación | SEPTIEMBRE 2008 - SEPTIEMBRE 2009*
 * Desarrollo de reportajes en áreas de Economía y Política.
 
+---
+
 **Diario La Verdad (Venezuela)**
 *Periodista de Política | NOVIEMBRE 2004 - SEPTIEMBRE 2008*
 * Cobertura informativa diaria, entrevistas exclusivas y procesos electorales.
+
+---
 
 ### > [ PUBLICACIONES SELECCIONADAS ]
 
