@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "El código fuente de la personalidad: Se filtran los "System Prompts" de la IA"
+title: 'El código fuente de la personalidad: Se filtran los "System Prompts" de la IA'
 date: 2026-01-30
 categories: [prospeccion, tecnologia]
 ---
@@ -8,6 +8,7 @@ categories: [prospeccion, tecnologia]
 
 # [ El código fuente de la personalidad: Se filtran los "System Prompts" de la IA ]
 
+---
 
 Un repositorio de GitHub se ha convertido en la zona cero de la transparencia en el mundo de la inteligencia artificial, y es que contiene los "huesos" de cómo interactúan con nosotros modelos como GPT-5, Claude 4.5 y Gemini.
 
