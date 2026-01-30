@@ -13,9 +13,9 @@ permalink: /ia/el-codigo-fuente-de-la-personalidad/
 
 Un [repositorio de GitHub](https://github.com/asgeirtj/system_prompts_leaks) se ha convertido en la zona cero de la transparencia forzada en el mundo de la inteligencia artificial. Contiene los "huesos" de cómo interactúan con nosotros modelos como GPT-5, Claude 4.5 y Gemini.
 
-**Por qué importa:** Estos *system prompts* son las instrucciones maestras y secretas que dictan el comportamiento, los límites de seguridad y la "personalidad" de un modelo antes de que el usuario escriba una sola palabra.
+**Por qué importa:** Estos *system prompts* son las instrucciones maestras y secretas que dictan el comportamiento, los límites de seguridad y la "personalidad" de un modelo antes de que el usuario escriba una sola palabra. Y estas mismas instrucciones pueden servirte a la hora de refinar tus propios prompts.
 
-**El panorama general:** El repositorio ha escalado rápidamente en las tendencias de GitHub. No es código de software tradicional; es una colección de las reglas gramaticales y éticas que las Big Tech intentan mantener bajo llave.
+**El panorama general:** El repositorio ha escalado rápidamente en las tendencias de GitHub. Está de número 1. No es código de software tradicional; es una colección de las reglas gramaticales y éticas que las Big Tech intentan mantener bajo llave.
 
 ### Lo que revelan las filtraciones
 
