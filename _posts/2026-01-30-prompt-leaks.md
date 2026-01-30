@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "El código fuente de la personalidad: Se filtran los "System Prompts" de la IA"
-date: 2026-01-20
+date: 2026-01-30
 categories: [prospeccion, tecnologia]
 ---
 **Autor:** Carlos Moreno
