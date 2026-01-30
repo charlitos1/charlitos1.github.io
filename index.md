@@ -48,4 +48,28 @@ $ help --info
   .blink { animation: blinker 1.2s linear infinite; color: #00ff00; }
   @keyframes blinker { 50% { opacity: 0; } }
   pre { overflow-x: hidden; white-space: pre-wrap; word-wrap: break-word; font-family: monospace; }
+
+
+/* Compactar solo la lista de posts anteriores */
+.terminal-list {
+    margin-top: -10px; /* Pega la lista al comando superior */
+    line-height: 1.1;  /* Interlineado mínimo de terminal */
+}
+
+.terminal-list p {
+    margin: 0;         /* Elimina el margen que Markdown añade a cada post */
+    padding: 0;
+}
+
+/* Opcional: Si quieres que los links no tengan el subrayado por defecto */
+.terminal-list a {
+    text-decoration: none;
+    color: #00ff00;
+}
+
+.terminal-list a:hover {
+    text-decoration: underline;
+}
+
+
 </style>
