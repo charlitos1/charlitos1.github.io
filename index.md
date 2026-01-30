@@ -28,11 +28,10 @@ title: "root@carlosmoreno:~$"
 ---
 
 $ /recent_posts --limit 5
-<pre class="terminal-history">
 {% for post in site.posts offset:1 limit:5 %}
-* {{ post.date | date: "%Y-%m-%d" }} - <a href="{{ post.url }}">{{ post.title }}</a>
+* {{ post.date | date: "%Y-%m-%d" }} - [{{ post.title }}]({{ post.url }})
 {% endfor %}
-</pre>
+
 
 
 $ archive --access
@@ -51,25 +50,4 @@ $ help --info
   .blink { animation: blinker 1.2s linear infinite; color: #00ff00; }
   @keyframes blinker { 50% { opacity: 0; } }
   pre { overflow-x: hidden; white-space: pre-wrap; word-wrap: break-word; font-family: monospace; }
-
-.terminal-history {
-    background: transparent; /* Quita el fondo gris que ponen algunos temas */
-    border: none;           /* Quita bordes */
-    padding: 0;
-    margin: 0;
-    color: inherit;         /* Mantiene el color verde o blanco de tu terminal */
-    font-family: monospace;
-    line-height: 1.2;       /* Aquí controlas el interlineado exacto */
-    overflow: hidden;       /* Evita barras de desplazamiento */
-}
-
-.terminal-history a {
-    color: #00ff00;         /* El color de tus links */
-    text-decoration: none;
-}
-
-.terminal-history a:hover {
-    text-decoration: underline;
-}
-
 </style>
