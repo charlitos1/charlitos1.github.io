@@ -37,7 +37,7 @@ La comunidad de IA está dividida sobre si estas filtraciones representan un rie
 
 **El dato:** El repositorio ya supera las 28,000 estrellas, convirtiéndose en una lectura obligatoria para ingenieros de prompts que buscan replicar el comportamiento de modelos propietarios en sistemas de código abierto.
 
-Lo que sigue: A medida que los modelos se vuelven más complejos (como el esperado GPT-5.2), la batalla entre las empresas que intentan "esconder el guion" y los usuarios que usan ingeniería social para extraerlo se intensificará.
+**Lo que sigue:** A medida que los modelos se vuelven más complejos (como el esperado GPT-5.2), la batalla entre las empresas que intentan "esconder el guion" y los usuarios que usan ingeniería social para extraerlo se intensificará.
 
 ---
 
