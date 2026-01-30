@@ -28,9 +28,12 @@ title: "root@carlosmoreno:~$"
 ---
 
 $ /recent_posts --limit 5
+<pre class="terminal-history">
 {% for post in site.posts offset:1 limit:5 %}
-* {{ post.date | date: "%Y-%m-%d" }} - [{{ post.title }}]({{ post.url }})
+* {{ post.date | date: "%Y-%m-%d" }} - <a href="{{ post.url }}">{{ post.title }}</a>
 {% endfor %}
+</pre>
+
 
 $ archive --access
 > [ Ver todos los registros del sistema (Full Archive) ](/archive)
@@ -49,27 +52,24 @@ $ help --info
   @keyframes blinker { 50% { opacity: 0; } }
   pre { overflow-x: hidden; white-space: pre-wrap; word-wrap: break-word; font-family: monospace; }
 
-
-/* Compactar solo la lista de posts anteriores */
-.terminal-list {
-    margin-top: -10px; /* Pega la lista al comando superior */
-    line-height: 1.1;  /* Interlineado mínimo de terminal */
-}
-
-.terminal-list p {
-    margin: 0;         /* Elimina el margen que Markdown añade a cada post */
+.terminal-history {
+    background: transparent; /* Quita el fondo gris que ponen algunos temas */
+    border: none;           /* Quita bordes */
     padding: 0;
+    margin: 0;
+    color: inherit;         /* Mantiene el color verde o blanco de tu terminal */
+    font-family: monospace;
+    line-height: 1.2;       /* Aquí controlas el interlineado exacto */
+    overflow: hidden;       /* Evita barras de desplazamiento */
 }
 
-/* Opcional: Si quieres que los links no tengan el subrayado por defecto */
-.terminal-list a {
+.terminal-history a {
+    color: #00ff00;         /* El color de tus links */
     text-decoration: none;
-    color: #00ff00;
 }
 
-.terminal-list a:hover {
+.terminal-history a:hover {
     text-decoration: underline;
 }
-
 
 </style>
