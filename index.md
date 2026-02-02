@@ -47,12 +47,7 @@ $ help --info
 
 
 <style>
-  .blink { animation: blinker 1.2s linear infinite; color: #00ff00; }
-  @keyframes blinker { 50% { opacity: 0; } }
-  pre { overflow-x: hidden; white-space: pre-wrap; word-wrap: break-word; font-family: monospace; }
-
-<style>
-  /* Base de la Terminal */
+   /* Base de la Terminal */
   body {
     background-color: #0a0a0a; /* Negro profundo */
     color: #bbb;               /* Texto general gris suave para no cansar */
