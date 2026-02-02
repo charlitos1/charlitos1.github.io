@@ -34,10 +34,13 @@
       padding-bottom: 10px;
     }
 
-    h1, h2, h3 {
+    /* CORRECCIÓN DE INTERLETRADO Y TÍTULOS */
+    h1, h2, h3, .term-cmd {
       color: var(--terminal-green) !important;
       font-weight: normal;
       margin-bottom: 0.5em;
+      letter-spacing: -0.8px !important; /* Evita que las letras se separen de más */
+      word-spacing: -1px;
     }
 
     h1 { font-size: 1.2em; }
@@ -92,6 +95,17 @@
   </nav>
 
   <main>
+    {% if page.layout == 'post' %}
+      <header style="margin-bottom: 40px;">
+        <span class="term-muted">/entries/view --id="{{ page.title | slugify }}"</span>
+        <h1 style="margin-top: 10px;">> {{ page.title | upcase }}</h1>
+        <div class="term-muted" style="font-size: 0.8em;">
+          DATE: {{ page.date | date: "%d/%m/%Y" }}
+        </div>
+        <hr style="margin: 20px 0;">
+      </header>
+    {% endif %}
+
     {{ content }}
   </main>
 
