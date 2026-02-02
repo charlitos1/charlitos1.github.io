@@ -1,42 +1,69 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
-{%- comment -%}
-  Build a practical CSP. It remains strict by default while allowing
-  common use cases like external images and Google Fonts.
-  If you need to permit additional script/connect sources (e.g., analytics),
-  extend via `csp_extra` in your _config.yml.
-{%- endcomment -%}
-{%- capture csp -%}
-default-src 'none';
-connect-src 'self';
-base-uri 'self';
-form-action 'none';
-img-src 'self' https: data:;
-style-src 'self' https://fonts.googleapis.com;
-font-src 'self' https://fonts.gstatic.com data:;
-media-src 'self';
-object-src 'none';
-child-src 'self';
-script-src 'self';
-{%- endcapture -%}
-{%- capture csp_final -%}{{ csp | strip | replace: '\n', ' ' }} {%- if site.csp_extra %} {{ site.csp_extra }}{%- endif -%}{%- endcapture -%}
-<meta http-equiv="Content-Security-Policy" content="{{ csp_final | strip }}" />
-<meta http-equiv="X-XSS-Protection"  content="1;mode=block" always>
-<meta http-equiv="Referrer-Policy" content="no-referrer, strict-origin-when-cross-origin">
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self' https: data:; style-src 'self' 'unsafe-inline';">
+  <title>{{ page.title | default: site.title }}</title>
 
-  {%- include head.html -%}
+  <style>
+    body {
+      background-color: #080808 !important;
+      color: #d1d1d1 !important; /* TEXTO DE LECTURA EN GRIS CLARO */
+      font-family: 'Courier New', Courier, monospace !important;
+      max-width: 720px;
+      margin: 40px auto;
+      padding: 24px;
+      line-height: 1.6;
+      font-size: 18px !important;
+    }
 
-  <body>
-    <div class="container">
+    /* SOLO ESTO SERÁ VERDE */
+    h1, h2, pre, .term-cmd, .term-prompt, a {
+      color: #00ff00 !important;
+    }
 
-      {%- include header.html -%}
+    /* EL CONTENIDO DEL POST (Markdown) */
+    /* Forzamos que los párrafos y listas no sean verdes */
+    main p, main li, main div {
+      color: #d1d1d1 !important;
+    }
 
-    <main>
-      {{ content }}
-    </main>
+    /* Títulos de los posts en Blanco para resaltar sobre el gris */
+    h3 {
+      color: #ffffff !important;
+      text-transform: uppercase;
+      margin-top: 2em;
+    }
 
-    {%- include footer.html -%}
+    /* ENLACES */
+    a { text-decoration: none; }
+    a:hover { text-decoration: underline; }
 
-    </div>
-  </body>
+    /* METADATOS (Fechas, ayuda) */
+    .term-muted, blockquote {
+      color: #666 !important;
+    }
+
+    hr { border: 0; border-top: 1px solid #222; margin: 30px 0; }
+
+    .blink { animation: blinker 1.2s linear infinite; color: #00ff00; }
+    @keyframes blinker { 50% { opacity: 0; } }
+
+    @media (max-width: 600px) {
+      body { font-size: 16px !important; }
+      pre { font-size: 0.5em !important; overflow-x: auto; }
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    {{ content }}
+  </main>
+
+  <footer style="margin-top: 4rem; color: #444; font-size: 0.8em;">
+    <p>$ session_end <span class="blink">_</span></p>
+  </footer>
+</body>
 </html>
