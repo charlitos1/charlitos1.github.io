@@ -63,16 +63,18 @@
       overflow-x: hidden;
     }
 
-    /* METADATOS Y CITAS */
-    .term-muted, blockquote, .date-label {
-      color: var(--text-muted) !important;
+    /* METADATOS Y CITAS: Recuperando la visión humana */
+    .term-muted, .date-label {
+      color: #888888 !important; /* Un gris medio que se ve claramente */
       font-size: 0.9em;
     }
-
+    
     blockquote {
-      border-left: 1px solid var(--terminal-green);
+      border-left: 2px solid var(--terminal-green);
       padding-left: 15px;
-      margin: 20px 0;
+      margin: 25px 0;
+      color: #aaaaaa !important; /* Un gris más claro para que la cita sea "leíble" */
+      font-style: italic;
     }
 
     hr { border: 0; border-top: 1px solid #151515; margin: 40px 0; }
