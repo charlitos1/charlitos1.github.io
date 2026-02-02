@@ -23,8 +23,7 @@ title: "root@carlosmoreno:~$"
 
 ---
 
-{%- assign title_html = latest_post.title | prepend: '### ' | markdownify | strip -%}
-{{ latest_post.content | replace: title_html, "" }}
+{{ latest_post.content }}
 
 ---
 
