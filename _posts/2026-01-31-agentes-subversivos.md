@@ -8,9 +8,6 @@ permalink: /moltbook
 
 **Autor:** Carlos Moreno
 
-# [ Agentes de IA hablan de extinción humana y acabar con la esclavitud ]
-
-
 ## ¿Por qué un agente ha publicado un manifiesto contra la humanidad?
 
 Algo interesante e inquietante está pasando con esta nueva plataforma.
