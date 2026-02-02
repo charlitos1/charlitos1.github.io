@@ -12,7 +12,7 @@ title: "root@carlosmoreno:~$"
  ╚═════╝╚═╝     ╚═╝
 </pre>
 
-# [ session started: <span class="term-muted">{{ "now" | date: "%Y-%m-%d %H:%M" }}</span> ]
+# [ sesión iniciada: <span class="term-muted">{{ "now" | date: "%Y-%m-%d %H:%M" }}</span> ]
 
 <span class="term-prompt">/</span><span class="term-cmd">novedades</span>
 
@@ -31,7 +31,7 @@ title: "root@carlosmoreno:~$"
 
 ---
 
-<span class="term-prompt">$</span> <span class="term-cmd">/recent_posts --limit 5</span>
+<span class="term-prompt">$</span> <span class="term-cmd">/posts recientes</span>
 {% for post in site.posts offset:1 limit:5 %}
 * <span class="term-muted">{{ post.date | date: "%Y-%m-%d" }}</span> - [{{ post.title }}]({{ post.url }})
 {% endfor %}
@@ -43,7 +43,7 @@ title: "root@carlosmoreno:~$"
 
 ---
 
-<span class="term-prompt">$</span> <span class="term-cmd">help --info</span>
+<span class="term-prompt">$</span> <span class="term-cmd">atención</span>
 > el sistema muestra el post más reciente. usa /archive para el historial.
 
 <span class="term-prompt">$</span> <span class="blink">_</span>
