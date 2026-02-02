@@ -31,7 +31,7 @@ title: "root@carlosmoreno:~$"
 
 ---
 
-<span class="term-prompt">$</span> <span class="term-cmd">/posts recientes</span>
+<span class="term-prompt">$</span> <span class="term-cmd">posts recientes</span>
 {% for post in site.posts offset:1 limit:5 %}
 * <span class="term-muted">{{ post.date | date: "%Y-%m-%d" }}</span> - [{{ post.title }}]({{ post.url }})
 {% endfor %}
