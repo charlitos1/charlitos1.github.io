@@ -18,12 +18,16 @@ title: "root@carlosmoreno:~$"
 
 {% assign latest_post = site.posts.first %}
 
-### > {{ latest_post.content | split: '</h3>' | last }}
+### > {{ latest_post.title | upcase }}
 <div class="term-muted">DATE: {{ latest_post.date | date: "%d/%m/%Y" }}</div>
 
 ---
 
-{{ latest_post.content }}
+{% if latest_post.content contains '</h3>' %}
+  {{ latest_post.content | split: '</h3>' | last }}
+{% else %}
+  {{ latest_post.content }}
+{% endif %}
 
 ---
 
