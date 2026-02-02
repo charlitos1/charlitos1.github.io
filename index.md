@@ -96,4 +96,3 @@ $ help --info
   pre { overflow-x: hidden; white-space: pre-wrap; font-family: monospace; }
 </style>
  
-</style>
