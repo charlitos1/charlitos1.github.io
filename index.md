@@ -3,7 +3,7 @@ layout: default
 title: "root@carlosmoreno:~$"
 ---
 
-<pre style="color: #00ff00; line-height: 1.1; font-size: 0.8em; border: none; background: transparent;">
+<pre class="ascii-logo">
  ██████╗███╗   ███╗
 ██╔════╝████╗ ████║
 ██║     ██╔████╔██║  
@@ -12,13 +12,14 @@ title: "root@carlosmoreno:~$"
  ╚═════╝╚═╝     ╚═╝
 </pre>
 
-<h1 style="font-size: 1em;">[ SESSION STARTED: <span class="term-muted">{{ "now" | date: "%Y-%m-%d %H:%M" }}</span> ]</h1>
+# [ SESSION STARTED: <span class="term-muted">{{ "now" | date: "%Y-%m-%d %H:%M" }}</span> ]
 
 <span class="term-prompt">/</span><span class="term-cmd">novedades</span>
+
 {% assign latest_post = site.posts.first %}
 
 ### > {{ latest_post.title | upcase }}
-<span class="term-muted">DATE: {{ latest_post.date | date: "%d/%m/%Y" }}</span>
+<div class="term-muted">DATE: {{ latest_post.date | date: "%d/%m/%Y" }}</div>
 
 ---
 
@@ -34,15 +35,11 @@ title: "root@carlosmoreno:~$"
 <br>
 
 <span class="term-prompt">$</span> <span class="term-cmd">archive --access</span>
-> [ <span class="term-cmd">Ver todos los registros del sistema (Full Archive)</span> ](/archive)
+> [ Ver todos los registros del sistema ](/archive)
 
 ---
 
 <span class="term-prompt">$</span> <span class="term-cmd">help --info</span>
-<blockquote class="term-muted">
-  El sistema muestra el post más reciente y los 5 anteriores.<br>
-  Usa /archive para el historial completo.
-</blockquote>
+> El sistema muestra el post más reciente. Usa /archive para el historial.
 
 <span class="term-prompt">$</span> <span class="blink">_</span>
-
