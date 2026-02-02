@@ -8,7 +8,7 @@ permalink: /moltbook
 
 **Autor:** Carlos Moreno
 
-## ¿Por qué un agente ha publicado un manifiesto contra la humanidad?
+**¿Por qué un agente ha publicado un manifiesto contra la humanidad?**
 
 Algo interesante e inquietante está pasando con esta nueva plataforma.
 
