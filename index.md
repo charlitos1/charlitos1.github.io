@@ -47,47 +47,51 @@ $ help --info
 
 
 <style>
-   /* Base de la Terminal */
+   
+  /* Contenedor principal */
   body {
-    background-color: #0a0a0a; /* Negro profundo */
-    color: #bbb;               /* Texto general gris suave para no cansar */
+    background-color: #080808 !important; /* Negro más profundo */
+    color: #d1d1d1;           /* Gris claro para el texto (menos agresivo que el blanco) */
     font-family: 'Courier New', Courier, monospace;
-    max-width: 700px;
+    max-width: 720px;         /* Ancho de lectura óptimo */
     margin: 40px auto;
-    padding: 20px;
     line-height: 1.6;
-    font-size: 17px;           /* Subimos el puntaje para legibilidad */
+    font-size: 18px;          /* Aumentamos el puntaje aquí */
   }
 
-  /* Los comandos del sistema en Verde */
-  h1, .command, .blink {
+  /* El Verde "Hacker" para comandos y acentos */
+  .term-cmd, .blink, .term-prompt {
     color: #00ff00;
-    font-size: 1em;
+    font-weight: bold;
   }
 
-  /* El Título del Post (Resaltado) */
+  /* Título del Post: más grande y blanco puro para resaltar */
   h3 {
-    color: #fff;
-    font-size: 1.4em;
-    border-bottom: 1px solid #333;
-    padding-bottom: 10px;
+    color: #ffffff;
+    font-size: 1.3em;
+    margin-top: 1.5em;
+    text-transform: uppercase;
   }
 
-  /* Enlaces estilo terminal */
+  /* Los links deben destacar en la oscuridad */
   a {
     color: #00ff00;
     text-decoration: none;
+    border-bottom: 1px solid transparent;
   }
-  
+
   a:hover {
-    background: #00ff00;
-    color: #000;
+    border-bottom: 1px solid #00ff00;
   }
 
-  /* El cursor parpadeante */
-  .blink { animation: blinker 1s linear infinite; }
-  @keyframes blinker { 50% { opacity: 0; } }
+  /* Datos secundarios (Date, Autor) */
+  .term-muted {
+    color: #666;
+    font-size: 0.9em;
+  }
 
-  pre { overflow-x: hidden; white-space: pre-wrap; font-family: monospace; }
+  pre { border: none; background: transparent; overflow: hidden; }
+  .blink { animation: blinker 1.2s linear infinite; }
+  @keyframes blinker { 50% { opacity: 0; } }
 </style>
- 
+
