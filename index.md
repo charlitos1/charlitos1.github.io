@@ -23,11 +23,8 @@ title: "root@carlosmoreno:~$"
 
 ---
 
-{% if latest_post.content contains '</h3>' %}
-  {{ latest_post.content | split: '</h3>' | last }}
-{% else %}
-  {{ latest_post.content }}
-{% endif %}
+{%- assign title_html = latest_post.title | prepend: '### ' | markdownify | strip -%}
+{{ latest_post.content | replace: title_html, "" }}
 
 ---
 
