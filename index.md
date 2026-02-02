@@ -38,7 +38,7 @@ title: "root@carlosmoreno:~$"
 
 <br>
 
-<span class="term-prompt">$</span> <span class="term-cmd">archive --access</span>
+<span class="term-prompt">$</span> <span class="term-cmd">archivos</span>
 > [ ver todos los registros del sistema ](/archive)
 
 ---
