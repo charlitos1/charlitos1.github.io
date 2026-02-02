@@ -19,7 +19,6 @@ title: "root@carlosmoreno:~$"
 {% assign latest_post = site.posts.first %}
 
 <header style="margin-top: 20px;">
-  <span class="term-muted">/entries/view --id="{{ latest_post.title | slugify }}"</span>
   <h3 style="margin-top: 10px;">> {{ latest_post.title }}</h3>
   <div class="term-muted" style="font-size: 0.8em;">
     date: {{ latest_post.date | date: "%d/%m/%Y" }}
