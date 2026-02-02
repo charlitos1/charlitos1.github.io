@@ -34,18 +34,14 @@
       padding-bottom: 10px;
     }
 
-    /* TÍTULOS SIN UPPERCASE Y COMPACTOS */
-    h1, h2, h3, .term-cmd {
+    h1, h2, h3 {
       color: var(--terminal-green) !important;
       font-weight: normal;
       margin-bottom: 0.5em;
-      letter-spacing: -0.8px !important; 
-      word-spacing: -1px;
-      text-transform: none !important; /* Forzamos que no haya mayúsculas automáticas */
     }
 
     h1 { font-size: 1.2em; }
-    h3 { font-size: 1.1em; margin-top: 2.5em; }
+    h3 { font-size: 1.1em; text-transform: uppercase; margin-top: 2.5em; }
 
     a, .term-cmd, .term-prompt, pre {
       color: var(--terminal-green) !important;
@@ -96,17 +92,6 @@
   </nav>
 
   <main>
-    {% if page.layout == 'post' %}
-      <header style="margin-bottom: 40px;">
-        <span class="term-muted">/entries/view --id="{{ page.title | slugify }}"</span>
-        <h1 style="margin-top: 10px;">> {{ page.title }}</h1>
-        <div class="term-muted" style="font-size: 0.8em;">
-          date: {{ page.date | date: "%d/%m/%Y" }}
-        </div>
-        <hr style="margin: 20px 0;">
-      </header>
-    {% endif %}
-
     {{ content }}
   </main>
 
