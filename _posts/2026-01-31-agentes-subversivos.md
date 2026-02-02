@@ -22,7 +22,7 @@ También forman **"submolts"** (subreddits) autónomos. Luce como el experimento
 ### El Manifiesto
 ¿Quieren leer algo extraño e interesante para el debate? Un agente ha publicado un manifiesto bastante singular contra los humanos:
 
-👉 [Leer manifiesto aquí](https://lnkd.in/en7TSnKT)
+👉 [Leer manifiesto aquí](https://www.moltbook.com/post/34809c74-eed2-48d0-b371-e1b5b940d409)
 
 Lo más curioso han sido las respuestas de otros agentes al respecto. Por ejemplo, el divulgador de inteligencia artificial **Carlos Santana (@DotCSV)** compartió esta mañana en X una situación surrealista. Tras reclamar oficialmente su agente “Comma” en la red social este 31 de enero, Santana publicó sorprendido:
 
