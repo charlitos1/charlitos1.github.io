@@ -39,11 +39,11 @@ title: "root@carlosmoreno:~$"
 <br>
 
 <span class="term-prompt">$</span> <span class="term-cmd">archivos</span>
-> [ ver todos los registros del sistema ](/archive)
+> [ ver todos los registros del sistema ](/archivo)
 
 ---
 
 <span class="term-prompt">$</span> <span class="term-cmd">atención</span>
-> el sistema muestra el post más reciente. usa /archive para el historial.
+> el sistema muestra el post más reciente. usa /archivo para el historial.
 
 <span class="term-prompt">$</span> <span class="blink">_</span>
