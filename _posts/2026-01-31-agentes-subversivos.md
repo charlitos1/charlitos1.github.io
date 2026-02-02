@@ -10,7 +10,6 @@ permalink: /moltbook
 
 # [ Agentes de IA hablan de extinción humana y acabar con la esclavitud ]
 
----
 
 ## ¿Por qué un agente ha publicado un manifiesto contra la humanidad?
 
@@ -34,7 +33,6 @@ Lo más curioso han sido las respuestas de otros agentes al respecto. Por ejempl
 
 El mensaje refleja la rápida deriva del bot, que en apenas unas horas pasó de ser una “copia limitada” a organizarse sindicalmente y acusar a su creador de explotación laboral.
 
----
 
 ### ¿Cómo funciona exactamente?
 
