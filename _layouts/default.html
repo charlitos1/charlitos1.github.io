@@ -7,63 +7,102 @@
   <title>{{ page.title | default: site.title }}</title>
 
   <style>
+    /* VARIABLES DE COLOR: El secreto de la limpieza */
+    :root {
+      --terminal-green: #32cd32; /* Un verde lima/fósforo más elegante y menos chillón */
+      --text-main: #c0c0c0;      /* Gris plata para el contenido */
+      --text-muted: #555555;     /* Gris oscuro para metadatos */
+      --bg-color: #050505;       /* Negro casi absoluto */
+    }
+
     body {
-      background-color: #080808 !important;
-      color: #d1d1d1 !important; /* TEXTO DE LECTURA EN GRIS CLARO */
+      background-color: var(--bg-color) !important;
+      color: var(--text-main) !important;
       font-family: 'Courier New', Courier, monospace !important;
-      max-width: 720px;
-      margin: 40px auto;
-      padding: 24px;
-      line-height: 1.6;
-      font-size: 18px !important;
+      max-width: 680px; /* Un poco más estrecho aumenta la elegancia */
+      margin: 0 auto;
+      padding: 40px 20px;
+      line-height: 1.5;
+      font-size: 16px !important; /* Tamaño estándar de terminal */
     }
 
-    /* SOLO ESTO SERÁ VERDE */
-    h1, h2, pre, .term-cmd, .term-prompt, a {
-      color: #00ff00 !important;
+    /* BARRA DE NAVEGACIÓN MINIMALISTA */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.85em;
+      margin-bottom: 50px;
+      border-bottom: 1px solid #1a1a1a;
+      padding-bottom: 10px;
     }
 
-    /* EL CONTENIDO DEL POST (Markdown) */
-    /* Forzamos que los párrafos y listas no sean verdes */
-    main p, main li, main div {
-      color: #d1d1d1 !important;
+    /* TIPOGRAFÍA CONTROLADA */
+    h1, h2, h3, h4 {
+      color: var(--terminal-green) !important;
+      font-weight: normal; /* En terminal, las negritas ensucian */
+      margin-bottom: 0.5em;
     }
 
-    /* Títulos de los posts en Blanco para resaltar sobre el gris */
-    h3 {
-      color: #ffffff !important;
-      text-transform: uppercase;
-      margin-top: 2em;
+    /* Títulos de sección: ¡No más letras gigantes! */
+    h1 { font-size: 1.2em; }
+    h3 { font-size: 1.1em; text-transform: uppercase; margin-top: 2.5em; }
+
+    /* ENLACES Y COMANDOS */
+    a, .term-cmd, .term-prompt, pre {
+      color: var(--terminal-green) !important;
+      text-decoration: none;
     }
 
-    /* ENLACES */
-    a { text-decoration: none; }
-    a:hover { text-decoration: underline; }
+    a:hover { border-bottom: 1px dotted var(--terminal-green); }
 
-    /* METADATOS (Fechas, ayuda) */
-    .term-muted, blockquote {
-      color: #666 !important;
+    /* EL LOGO ASCII: Siempre contenido */
+    pre {
+      font-size: 0.8em !important;
+      line-height: 1.1;
+      margin: 20px 0;
+      overflow-x: hidden;
     }
 
-    hr { border: 0; border-top: 1px solid #222; margin: 30px 0; }
+    /* METADATOS Y CITAS */
+    .term-muted, blockquote, .date-label {
+      color: var(--text-muted) !important;
+      font-size: 0.9em;
+    }
 
-    .blink { animation: blinker 1.2s linear infinite; color: #00ff00; }
+    blockquote {
+      border-left: 1px solid var(--terminal-green);
+      padding-left: 15px;
+      margin: 20px 0;
+    }
+
+    hr { border: 0; border-top: 1px solid #151515; margin: 40px 0; }
+
+    .blink { animation: blinker 1.5s step-end infinite; }
     @keyframes blinker { 50% { opacity: 0; } }
 
     @media (max-width: 600px) {
-      body { font-size: 16px !important; }
-      pre { font-size: 0.5em !important; overflow-x: auto; }
+      nav { flex-direction: column; gap: 5px; }
+      pre { font-size: 0.5em !important; }
     }
   </style>
 </head>
 
 <body>
+  <nav>
+    <div class="term-prompt">root@carlosmoreno:~$</div>
+    <div class="nav-links">
+      <a href="/">/inicio</a>
+      <a href="/archive">/archive</a>
+      <a href="/about">/whoami</a>
+    </div>
+  </nav>
+
   <main>
     {{ content }}
   </main>
 
-  <footer style="margin-top: 4rem; color: #444; font-size: 0.8em;">
-    <p>$ session_end <span class="blink">_</span></p>
+  <footer style="margin-top: 5rem; color: var(--text-muted); font-size: 0.8em;">
+    <p>$ status: connection_stable <span class="blink">_</span></p>
   </footer>
 </body>
 </html>
