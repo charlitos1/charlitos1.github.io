@@ -12,14 +12,19 @@ title: "root@carlosmoreno:~$"
  ╚═════╝╚═╝     ╚═╝
 </pre>
 
-# [ SESSION STARTED: <span class="term-muted">{{ "now" | date: "%Y-%m-%d %H:%M" }}</span> ]
+# [ session started: <span class="term-muted">{{ "now" | date: "%Y-%m-%d %H:%M" }}</span> ]
 
 <span class="term-prompt">/</span><span class="term-cmd">novedades</span>
 
 {% assign latest_post = site.posts.first %}
 
-### > {{ latest_post.title | upcase }}
-<div class="term-muted">DATE: {{ latest_post.date | date: "%d/%m/%Y" }}</div>
+<header style="margin-top: 20px;">
+  <span class="term-muted">/entries/view --id="{{ latest_post.title | slugify }}"</span>
+  <h3 style="margin-top: 10px;">> {{ latest_post.title }}</h3>
+  <div class="term-muted" style="font-size: 0.8em;">
+    date: {{ latest_post.date | date: "%d/%m/%Y" }}
+  </div>
+</header>
 
 ---
 
@@ -35,11 +40,11 @@ title: "root@carlosmoreno:~$"
 <br>
 
 <span class="term-prompt">$</span> <span class="term-cmd">archive --access</span>
-> [ Ver todos los registros del sistema ](/archive)
+> [ ver todos los registros del sistema ](/archive)
 
 ---
 
 <span class="term-prompt">$</span> <span class="term-cmd">help --info</span>
-> El sistema muestra el post más reciente. Usa /archive para el historial.
+> el sistema muestra el post más reciente. usa /archive para el historial.
 
 <span class="term-prompt">$</span> <span class="blink">_</span>
