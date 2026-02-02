@@ -96,19 +96,18 @@
   </nav>
 
   <main>
-    {% if page.layout == 'post' %}
-      <header style="margin-bottom: 40px;">
-        <span class="term-muted">/entries/view --id="{{ page.title | slugify }}"</span>
-        <h1 style="margin-top: 10px;">> {{ page.title }}</h1>
-        <div class="term-muted" style="font-size: 0.8em;">
-          date: {{ page.date | date: "%d/%m/%Y" }}
-        </div>
-        <hr style="margin: 20px 0;">
-      </header>
-    {% endif %}
+  {% if page.layout == 'post' %}
+    <header style="margin-bottom: 20px;">
+      <h1 style="margin-top: 10px;">> {{ page.title }}</h1>
+      <div class="term-muted" style="font-size: 0.8em;">
+        date: {{ page.date | date: "%d/%m/%Y" }}
+      </div>
+      <hr style="margin: 20px 0;">
+    </header>
+  {% endif %}
 
-    {{ content }}
-  </main>
+  {{ content }}
+</main>
 
   <footer style="margin-top: 5rem; color: var(--text-muted); font-size: 0.8em;">
     <p>$ status: connection_stable <span class="blink">_</span></p>
