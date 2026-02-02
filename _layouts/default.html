@@ -7,26 +7,24 @@
   <title>{{ page.title | default: site.title }}</title>
 
   <style>
-    /* VARIABLES DE COLOR: El secreto de la limpieza */
     :root {
-      --terminal-green: #32cd32; /* Un verde lima/fósforo más elegante y menos chillón */
-      --text-main: #c0c0c0;      /* Gris plata para el contenido */
-      --text-muted: #555555;     /* Gris oscuro para metadatos */
-      --bg-color: #050505;       /* Negro casi absoluto */
+      --terminal-green: #32cd32; 
+      --text-main: #c0c0c0;      
+      --text-muted: #888888;     
+      --bg-color: #050505;       
     }
 
     body {
       background-color: var(--bg-color) !important;
       color: var(--text-main) !important;
       font-family: 'Courier New', Courier, monospace !important;
-      max-width: 680px; /* Un poco más estrecho aumenta la elegancia */
+      max-width: 680px;
       margin: 0 auto;
       padding: 40px 20px;
       line-height: 1.5;
-      font-size: 16px !important; /* Tamaño estándar de terminal */
+      font-size: 16px !important;
     }
 
-    /* BARRA DE NAVEGACIÓN MINIMALISTA */
     nav {
       display: flex;
       justify-content: space-between;
@@ -36,19 +34,15 @@
       padding-bottom: 10px;
     }
 
-    /* TIPOGRAFÍA CONTROLADA */
-    h1, h2, h3, h4 {
+    h1, h2, h3 {
       color: var(--terminal-green) !important;
-      font-weight: normal; /* En terminal, las negritas ensucian */
+      font-weight: normal;
       margin-bottom: 0.5em;
     }
 
-    /* Títulos de sección: ¡No más letras gigantes! */
     h1 { font-size: 1.2em; }
-    h3 { font-size: 1.1em; margin-top: 2.5em; }
-    letter-spacing: -0.5px !important; /* Compacta ligeramente las letras */
+    h3 { font-size: 1.1em; text-transform: uppercase; margin-top: 2.5em; }
 
-    /* ENLACES Y COMANDOS */
     a, .term-cmd, .term-prompt, pre {
       color: var(--terminal-green) !important;
       text-decoration: none;
@@ -56,25 +50,22 @@
 
     a:hover { border-bottom: 1px dotted var(--terminal-green); }
 
-    /* EL LOGO ASCII: Siempre contenido */
-    pre {
+    pre.ascii-logo {
       font-size: 0.8em !important;
       line-height: 1.1;
       margin: 20px 0;
-      overflow-x: hidden;
+      background: transparent;
+      border: none;
     }
 
-    /* METADATOS Y CITAS: Recuperando la visión humana */
-    .term-muted, .date-label {
-      color: #888888 !important; /* Un gris medio que se ve claramente */
-      font-size: 0.9em;
-    }
-    
+    .term-muted { color: var(--text-muted) !important; }
+
     blockquote {
       border-left: 2px solid var(--terminal-green);
-      padding-left: 15px;
+      padding: 5px 15px;
       margin: 25px 0;
-      color: #aaaaaa !important; /* Un gris más claro para que la cita sea "leíble" */
+      color: #aaaaaa !important;
+      background: #0f0f0f;
       font-style: italic;
     }
 
@@ -85,7 +76,7 @@
 
     @media (max-width: 600px) {
       nav { flex-direction: column; gap: 5px; }
-      pre { font-size: 0.5em !important; }
+      pre.ascii-logo { font-size: 0.5em !important; overflow-x: hidden; }
     }
   </style>
 </head>
